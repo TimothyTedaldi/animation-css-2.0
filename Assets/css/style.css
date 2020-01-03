@@ -1,0 +1,139 @@
+@import url(Assets/css/normalize.css);
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css";
+/* line 4, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body {
+  background-color: grey;
+}
+
+/* line 6, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main {
+  width: 900px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/* line 12, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .pic {
+  width: 900px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  background-image: url("../img/picasso.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+/* line 23, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .pic:hover {
+  background-size: 120%;
+  transition-duration: 0.5s;
+  background-image: url(../img/picasso.jpg);
+  box-shadow: 0 0 20px black;
+  opacity: 0.1;
+}
+
+/* line 31, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main article {
+  padding-top: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* line 35, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main article h2 {
+  font-size: 52px;
+  color: black;
+}
+
+/* line 39, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main article h3 {
+  font-size: 36px;
+  color: #ca4609;
+}
+
+/* line 43, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main article p {
+  font-size: 24px;
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 7%;
+  margin-right: 7%;
+  letter-spacing: 1.8px;
+  line-height: 28px;
+}
+
+/* line 53, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .comments {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* line 56, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .comments ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 5%;
+}
+
+/* line 62, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .comments ul li {
+  text-decoration: none;
+  display: inline;
+}
+
+/* line 65, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .comments ul li i {
+  padding-left: 5%;
+  padding-right: 2%;
+  color: gray;
+  font-size: 24px;
+}
+
+/* line 71, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .main .comments ul li a {
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+}
+
+/* line 83, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .box .circle {
+  width: 100px;
+  height: 100px;
+  background: #ca4609;
+  position: absolute;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  margin-top: auto;
+  top: 40px;
+  left: 70%;
+  border: none;
+}
+
+/* line 97, ../Documents/GitHub/animation-css-2.0/Assets/scss/style.scss */
+body .box .rectangle {
+  width: 150px;
+  height: 50px;
+  background: #ca4609;
+  position: absolute;
+  bottom: 36%;
+  left: 25%;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
